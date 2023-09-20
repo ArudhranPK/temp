@@ -8,4 +8,4 @@ while True:
         break
 
     except:
-        print("\nThe input entered is not valid!!!!!\n")
+        print("The input entered is not valid!!!!!\n")
