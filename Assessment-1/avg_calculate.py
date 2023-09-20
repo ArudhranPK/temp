@@ -15,7 +15,7 @@ for i in range(1, 6):
 
 total_avg = 0
 for k in range(1, 6):
-    print("The average marks of student", i, "is", sum(marks[k-1])/5)
+    print("The average marks of student", k, "is", sum(marks[k-1])/5)
     total_avg += sum(marks[k-1])/5
 
 print("\nThe average marks of all five students is", total_avg/5)
