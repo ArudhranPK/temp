@@ -1,10 +1,8 @@
-def fahrenheit_to_celsius(temprature):
-    return (temprature - 32) * (5 / 9)
-
 while True:
     try:
-        temp = float(input("Enter temprature in Fahrenheit : "))
-        print("The temprature in Celcius is", fahrenheit_to_celsius(temp), "degrees.")
+        f = float(input("Enter temprature in Fahrenheit : "))
+        c = (f - 32) * (5 / 9)
+        print("The temprature in Celcius is", c, "degrees.")
         break
         
     except:
